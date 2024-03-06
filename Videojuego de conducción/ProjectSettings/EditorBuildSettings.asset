@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/mountain-race-track/scena 2.unity
+    guid: 031c4d9e2f6008e44b95566a9ce01609
+  - enabled: 1
+    path: Assets/Fin del juego.unity
+    guid: 2c395755328b8e04c91a1c5753bb2671
   m_configObjects: {}

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class controller : MonoBehaviour
 {
+    
     public int Freanar = 500;
     public WheelCollider Rueda1;
     public WheelCollider Rueda2;
@@ -49,3 +50,4 @@ public class controller : MonoBehaviour
         }
     }
 }
+

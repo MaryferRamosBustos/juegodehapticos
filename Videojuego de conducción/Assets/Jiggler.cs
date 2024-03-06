@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Jiggler : MonoBehaviour
 {
     [Range(0, 1)]
@@ -50,4 +51,6 @@ public class Jiggler : MonoBehaviour
         this.transform.localRotation = baseRotation * Quaternion.Euler(rotationJigAmount * Mathf.Sin(positionTime) * power);
         this.transform.localScale = baseScale + scalejigAmount * Mathf.Sin(scaleTime) * power;
     }
+
 }
+    
