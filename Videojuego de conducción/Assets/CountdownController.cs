@@ -10,7 +10,7 @@ public class CountdownController : MonoBehaviour
 
     private void Start()
     {
-        StartCorutine(CountdownToStar());
+        StartCoroutine(CountdownToStar());
     }
 
     IEnumerator CountdownToStar()
@@ -23,9 +23,11 @@ public class CountdownController : MonoBehaviour
         }
 
         countdownDisplay.text = "GO!";
+
         GameController.instance.BeginGame();
 
         yield return new WaitForSeconds(1f);
+
         countdownDisplay.gameObject.SetActive(false);
     }
 }
