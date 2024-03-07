@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - Enemigo
+=======
+  - ObjetoColisionable
+>>>>>>> 30b03bd78bec0689121a781d23e1cd17a52a93ec
   layers:
   - Default
   - TransparentFX
