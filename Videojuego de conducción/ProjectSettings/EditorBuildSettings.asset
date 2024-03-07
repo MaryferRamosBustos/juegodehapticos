@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Fin del juego.unity
     guid: 2c395755328b8e04c91a1c5753bb2671
+  - enabled: 1
+    path: Assets/Victoria.unity
+    guid: 60d232e47d88fcc4ea99834ed680a458
   m_configObjects: {}
